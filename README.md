@@ -1,2 +1,1 @@
-# nginx
-nginx docker image
+nginx docker container
