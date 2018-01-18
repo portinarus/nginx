@@ -16,5 +16,5 @@ RUN rm filebeat-${FILEBEAT_VERSION}-amd64.deb
 
 RUN filebeat modules enable nginx
 
-#ADD filebeat.yml /etc/filebeat/filebeat.yml
-#RUN chmod 644 /etc/filebeat/filebeat.yml
+ADD filebeat.yml /etc/filebeat/filebeat.yml
+RUN chmod 644 /etc/filebeat/filebeat.yml
